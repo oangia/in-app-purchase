@@ -1,0 +1,22 @@
+{
+    "name": "oangia/in-app-purchase",
+    "description": "In app purchase ios & android",
+    "type": "php",
+    "license": "oangia",
+    "authors": [
+        {
+            "name": "oangia",
+            "email": "hqnhatdn@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "oangia/curl": "1.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "oangia\\InAppPurchase\\": "src/"
+        }
+    }
+}
